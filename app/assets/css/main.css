@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme static {
+  --font-sans: 'Geist', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+}
+
+@layer base {
+  ul {
+    @apply list-disc pl-5;
+  }
+
+  ol {
+    @apply list-decimal pl-5;
+  }
+
+  li {
+    @apply mb-1;
+  }
+}
