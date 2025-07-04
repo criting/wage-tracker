@@ -1,6 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { countryLocales } from './app/utils/locales'
-
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
